@@ -1,0 +1,61 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+.env/
+.venv/
+.env.*
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Data files
+# =========================
+data/raw/*.csv
+data/processed/*.csv
+
+# =========================
+# Generated outputs
+# =========================
+outputs/charts/*.png
+outputs/tables/*.csv
+outputs/runs/
+
+# Keep one sample chart for demo
+!outputs/charts/sample_chart.png
+
+# =========================
+# Keep folder placeholders
+# =========================
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!outputs/charts/.gitkeep
+!outputs/tables/.gitkeep
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# Logs
+# =========================
+*.log
